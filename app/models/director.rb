@@ -12,6 +12,7 @@
 #
 class Director < ApplicationRecord
   validates(:name, presence: true)
+  
 
   def filmography
     key = self.id
